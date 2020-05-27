@@ -1,0 +1,750 @@
+@startuml
+
+title __EMOTORSTORE's Class Diagram__\n
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.CartController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.CartController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.CartResources {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.CartResources {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.HomeController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.HomeController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.OrderController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.OrderController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.ProductController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.ProductController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.RegisterController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      class com.emotorstore.controller.RegisterController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      namespace admin {
+        class com.emotorstore.controller.admin.AdminHome {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      namespace admin {
+        class com.emotorstore.controller.admin.AdminHome {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      namespace admin {
+        class com.emotorstore.controller.admin.AdminProduct {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.controller {
+      namespace admin {
+        class com.emotorstore.controller.admin.AdminProduct {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CartDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CartDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CartItemDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CartItemDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CustomerDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CustomerDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CustomerOrderDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.CustomerOrderDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.ProductDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      interface com.emotorstore.dao.ProductDao {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CartDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CartDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CartItemDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CartItemDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CustomerDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CustomerDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CustomerOrderDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.CustomerOrderDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.ProductDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.dao {
+      namespace impl {
+        class com.emotorstore.dao.impl.ProductDaoImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Authorities {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Authorities {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.BillingAddress {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.BillingAddress {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Cart {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Cart {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.CartItem {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.CartItem {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Customer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Customer {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.CustomerOrder {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.CustomerOrder {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Product {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Product {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.ShippingAddress {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.ShippingAddress {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Users {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Users {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CartItemService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CartItemService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CartService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CartService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CustomerOrderService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CustomerOrderService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CustomerService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.CustomerService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.ProductService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      interface com.emotorstore.service.ProductService {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CartItemServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CartItemServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CartServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CartServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CustomerOrderServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CustomerOrderServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CustomerServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.CustomerServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.ProductServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.service {
+      namespace impl {
+        class com.emotorstore.service.impl.ProductServiceImpl {
+        }
+      }
+    }
+  }
+  
+
+  com.emotorstore.controller.CartController o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.CartController o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.CartItemService : cartItemService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.CartService : cartService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.CartItemService : cartItemService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.CartService : cartService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.CartResources o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.controller.OrderController o-- com.emotorstore.service.CartService : cartService
+  com.emotorstore.controller.OrderController o-- com.emotorstore.service.CustomerOrderService : customerOrderService
+  com.emotorstore.controller.OrderController o-- com.emotorstore.service.CartService : cartService
+  com.emotorstore.controller.OrderController o-- com.emotorstore.service.CustomerOrderService : customerOrderService
+  com.emotorstore.controller.ProductController o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.controller.ProductController o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.controller.RegisterController o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.RegisterController o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.admin.AdminHome o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.admin.AdminHome o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.controller.admin.AdminHome o-- com.emotorstore.service.CustomerService : customerService
+  com.emotorstore.controller.admin.AdminHome o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.controller.admin.AdminProduct o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.controller.admin.AdminProduct o-- com.emotorstore.service.ProductService : productService
+  com.emotorstore.dao.impl.CartDaoImpl .up.|> com.emotorstore.dao.CartDao
+  com.emotorstore.dao.impl.CartDaoImpl o-- com.emotorstore.service.CustomerOrderService : customerOrderService
+  com.emotorstore.dao.impl.CartDaoImpl .up.|> com.emotorstore.dao.CartDao
+  com.emotorstore.dao.impl.CartDaoImpl o-- com.emotorstore.service.CustomerOrderService : customerOrderService
+  com.emotorstore.dao.impl.CartItemDaoImpl .up.|> com.emotorstore.dao.CartItemDao
+  com.emotorstore.dao.impl.CartItemDaoImpl .up.|> com.emotorstore.dao.CartItemDao
+  com.emotorstore.dao.impl.CustomerDaoImpl .up.|> com.emotorstore.dao.CustomerDao
+  com.emotorstore.dao.impl.CustomerDaoImpl .up.|> com.emotorstore.dao.CustomerDao
+  com.emotorstore.dao.impl.CustomerOrderDaoImpl .up.|> com.emotorstore.dao.CustomerOrderDao
+  com.emotorstore.dao.impl.CustomerOrderDaoImpl .up.|> com.emotorstore.dao.CustomerOrderDao
+  com.emotorstore.dao.impl.ProductDaoImpl .up.|> com.emotorstore.dao.ProductDao
+  com.emotorstore.dao.impl.ProductDaoImpl .up.|> com.emotorstore.dao.ProductDao
+  com.emotorstore.model.BillingAddress .up.|> java.io.Serializable
+  com.emotorstore.model.BillingAddress o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.BillingAddress .up.|> java.io.Serializable
+  com.emotorstore.model.BillingAddress o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.Cart .up.|> java.io.Serializable
+  com.emotorstore.model.Cart o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.Cart .up.|> java.io.Serializable
+  com.emotorstore.model.Cart o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.CartItem .up.|> java.io.Serializable
+  com.emotorstore.model.CartItem o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.CartItem o-- com.emotorstore.model.Product : product
+  com.emotorstore.model.CartItem .up.|> java.io.Serializable
+  com.emotorstore.model.CartItem o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.CartItem o-- com.emotorstore.model.Product : product
+  com.emotorstore.model.Customer .up.|> java.io.Serializable
+  com.emotorstore.model.Customer o-- com.emotorstore.model.BillingAddress : billingAddress
+  com.emotorstore.model.Customer o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.Customer o-- com.emotorstore.model.ShippingAddress : shippingAddress
+  com.emotorstore.model.Customer .up.|> java.io.Serializable
+  com.emotorstore.model.Customer o-- com.emotorstore.model.BillingAddress : billingAddress
+  com.emotorstore.model.Customer o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.Customer o-- com.emotorstore.model.ShippingAddress : shippingAddress
+  com.emotorstore.model.CustomerOrder .up.|> java.io.Serializable
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.BillingAddress : billingAddress
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.ShippingAddress : shippingAddress
+  com.emotorstore.model.CustomerOrder .up.|> java.io.Serializable
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.BillingAddress : billingAddress
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.ShippingAddress : shippingAddress
+  com.emotorstore.model.Product .up.|> java.io.Serializable
+  com.emotorstore.model.Product .up.|> java.io.Serializable
+  com.emotorstore.model.ShippingAddress .up.|> java.io.Serializable
+  com.emotorstore.model.ShippingAddress o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.ShippingAddress .up.|> java.io.Serializable
+  com.emotorstore.model.ShippingAddress o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.service.impl.CartItemServiceImpl .up.|> com.emotorstore.service.CartItemService
+  com.emotorstore.service.impl.CartItemServiceImpl o-- com.emotorstore.dao.CartItemDao : cartItemDao
+  com.emotorstore.service.impl.CartItemServiceImpl .up.|> com.emotorstore.service.CartItemService
+  com.emotorstore.service.impl.CartItemServiceImpl o-- com.emotorstore.dao.CartItemDao : cartItemDao
+  com.emotorstore.service.impl.CartServiceImpl .up.|> com.emotorstore.service.CartService
+  com.emotorstore.service.impl.CartServiceImpl o-- com.emotorstore.dao.CartDao : cartDao
+  com.emotorstore.service.impl.CartServiceImpl .up.|> com.emotorstore.service.CartService
+  com.emotorstore.service.impl.CartServiceImpl o-- com.emotorstore.dao.CartDao : cartDao
+  com.emotorstore.service.impl.CustomerOrderServiceImpl .up.|> com.emotorstore.service.CustomerOrderService
+  com.emotorstore.service.impl.CustomerOrderServiceImpl o-- com.emotorstore.service.CartService : cartService
+  com.emotorstore.service.impl.CustomerOrderServiceImpl o-- com.emotorstore.dao.CustomerOrderDao : customerOrderDao
+  com.emotorstore.service.impl.CustomerOrderServiceImpl .up.|> com.emotorstore.service.CustomerOrderService
+  com.emotorstore.service.impl.CustomerOrderServiceImpl o-- com.emotorstore.service.CartService : cartService
+  com.emotorstore.service.impl.CustomerOrderServiceImpl o-- com.emotorstore.dao.CustomerOrderDao : customerOrderDao
+  com.emotorstore.service.impl.CustomerServiceImpl .up.|> com.emotorstore.service.CustomerService
+  com.emotorstore.service.impl.CustomerServiceImpl o-- com.emotorstore.dao.CustomerDao : customerDao
+  com.emotorstore.service.impl.CustomerServiceImpl .up.|> com.emotorstore.service.CustomerService
+  com.emotorstore.service.impl.CustomerServiceImpl o-- com.emotorstore.dao.CustomerDao : customerDao
+  com.emotorstore.service.impl.ProductServiceImpl .up.|> com.emotorstore.service.ProductService
+  com.emotorstore.service.impl.ProductServiceImpl o-- com.emotorstore.dao.ProductDao : productDao
+  com.emotorstore.service.impl.ProductServiceImpl .up.|> com.emotorstore.service.ProductService
+  com.emotorstore.service.impl.ProductServiceImpl o-- com.emotorstore.dao.ProductDao : productDao
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

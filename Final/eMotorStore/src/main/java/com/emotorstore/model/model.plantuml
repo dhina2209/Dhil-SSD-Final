@@ -1,0 +1,279 @@
+@startuml
+
+title __MODEL's Class Diagram__\n
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Authorities {
+          - authoritiesId : int
+          - authority : String
+          - username : String
+          + getAuthoritiesId()
+          + getAuthority()
+          + getUsername()
+          + setAuthoritiesId()
+          + setAuthority()
+          + setUsername()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.BillingAddress {
+          - apartmentNumber : String
+          - billingAddressId : int
+          - city : String
+          - country : String
+          {static} - serialVersionUID : long
+          - state : String
+          - streetName : String
+          - zipCode : String
+          + getApartmentNumber()
+          + getBillingAddressId()
+          + getCity()
+          + getCountry()
+          + getCustomer()
+          + getState()
+          + getStreetName()
+          + getZipCode()
+          + setApartmentNumber()
+          + setBillingAddressId()
+          + setCity()
+          + setCountry()
+          + setCustomer()
+          + setState()
+          + setStreetName()
+          + setZipCode()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Cart {
+          - cartId : int
+          - cartItems : List<CartItem>
+          - grandTotal : double
+          {static} - serialVersionUID : long
+          + getCartId()
+          + getCartItems()
+          + getCustomer()
+          + getGrandTotal()
+          + setCartId()
+          + setCartItems()
+          + setCustomer()
+          + setGrandTotal()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.CartItem {
+          - cartItemId : int
+          - quantity : int
+          {static} - serialVersionUID : long
+          - totalPrice : double
+          + getCart()
+          + getCartItemId()
+          + getProduct()
+          + getQuantity()
+          + getTotalPrice()
+          + setCart()
+          + setCartItemId()
+          + setProduct()
+          + setQuantity()
+          + setTotalPrice()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Customer {
+          - customerEmail : String
+          - customerId : int
+          - customerName : String
+          - customerPhone : String
+          - enabled : boolean
+          - password : String
+          {static} - serialVersionUID : long
+          - username : String
+          + getBillingAddress()
+          + getCart()
+          + getCustomerEmail()
+          + getCustomerId()
+          + getCustomerName()
+          + getCustomerPhone()
+          + getPassword()
+          + getShippingAddress()
+          + getUsername()
+          + isEnabled()
+          + setBillingAddress()
+          + setCart()
+          + setCustomerEmail()
+          + setCustomerId()
+          + setCustomerName()
+          + setCustomerPhone()
+          + setEnabled()
+          + setPassword()
+          + setShippingAddress()
+          + setUsername()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.CustomerOrder {
+          - customerOrderId : int
+          {static} - serialVersionUID : long
+          + getBillingAddress()
+          + getCart()
+          + getCustomer()
+          + getCustomerOrderId()
+          + getShippingAddress()
+          + setBillingAddress()
+          + setCart()
+          + setCustomer()
+          + setCustomerOrderId()
+          + setShippingAddress()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Product {
+          - cartItemList : List<CartItem>
+          - productCategory : String
+          - productCondition : String
+          - productDescription : String
+          - productId : int
+          - productImage : MultipartFile
+          - productManufacturer : String
+          - productName : String
+          - productPrice : double
+          - productStatus : String
+          {static} - serialVersionUID : long
+          - unitInStock : int
+          + getCartItemList()
+          + getProductCategory()
+          + getProductCondition()
+          + getProductDescription()
+          + getProductId()
+          + getProductImage()
+          + getProductManufacturer()
+          + getProductName()
+          + getProductPrice()
+          + getProductStatus()
+          + getUnitInStock()
+          + setCartItemList()
+          + setProductCategory()
+          + setProductCondition()
+          + setProductDescription()
+          + setProductId()
+          + setProductImage()
+          + setProductManufacturer()
+          + setProductName()
+          + setProductPrice()
+          + setProductStatus()
+          + setUnitInStock()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.ShippingAddress {
+          - apartmentNumber : String
+          - city : String
+          - country : String
+          {static} - serialVersionUID : long
+          - shippingAddressId : int
+          - state : String
+          - streetName : String
+          - zipCode : String
+          + getApartmentNumber()
+          + getCity()
+          + getCountry()
+          + getCustomer()
+          + getShippingAddressId()
+          + getState()
+          + getStreetName()
+          + getZipCode()
+          + setApartmentNumber()
+          + setCity()
+          + setCountry()
+          + setCustomer()
+          + setShippingAddressId()
+          + setState()
+          + setStreetName()
+          + setZipCode()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.emotorstore.model {
+      class com.emotorstore.model.Users {
+          - customerId : int
+          - enabled : boolean
+          - password : String
+          - username : String
+          - usersId : int
+          + getCustomerId()
+          + getPassword()
+          + getUsername()
+          + getUsersId()
+          + isEnabled()
+          + setCustomerId()
+          + setEnabled()
+          + setPassword()
+          + setUsername()
+          + setUsersId()
+      }
+    }
+  }
+  
+
+  com.emotorstore.model.BillingAddress .up.|> java.io.Serializable
+  com.emotorstore.model.BillingAddress o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.Cart .up.|> java.io.Serializable
+  com.emotorstore.model.Cart o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.CartItem .up.|> java.io.Serializable
+  com.emotorstore.model.CartItem o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.CartItem o-- com.emotorstore.model.Product : product
+  com.emotorstore.model.Customer .up.|> java.io.Serializable
+  com.emotorstore.model.Customer o-- com.emotorstore.model.BillingAddress : billingAddress
+  com.emotorstore.model.Customer o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.Customer o-- com.emotorstore.model.ShippingAddress : shippingAddress
+  com.emotorstore.model.CustomerOrder .up.|> java.io.Serializable
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.BillingAddress : billingAddress
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.Cart : cart
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.Customer : customer
+  com.emotorstore.model.CustomerOrder o-- com.emotorstore.model.ShippingAddress : shippingAddress
+  com.emotorstore.model.Product .up.|> java.io.Serializable
+  com.emotorstore.model.ShippingAddress .up.|> java.io.Serializable
+  com.emotorstore.model.ShippingAddress o-- com.emotorstore.model.Customer : customer
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
